@@ -11392,7 +11392,7 @@ html .ui-button.ui-state-disabled:active {
 
   .bottom-header {
     background: #fff;
-    padding: 30px 0;
+    padding: 10px 0;
   }
 
   .nav-link:after {
@@ -12544,5 +12544,56 @@ html .ui-button.ui-state-disabled:active {
     margin-left: 0;
   }
 }
+
+
+@media only screen and (max-width: 989px) {
+ .top-header .office-time{
+  display: none;
+ }
+ .top-header .social-icon{
+  display: none;
+ }
+ .top-header{
+  padding-top: 5px;
+  padding-bottom: 15px;
+ }
+ #navbarSupportedContent{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+ }
+}
+
+@media only screen and (max-width: 480px){
+.home-banner{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.home-banner .banner-title{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.home-banner .btn-box{
+  padding-top: 10px;
+}
+.home-banner .def-btn{
+  height: 45px;
+  line-height: 45px;
+  padding: 0 12px;
+  font-size: 15px;
+}
+.feature{
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+.our-staff{
+  padding-top:60px;
+}
+}
+
+
+
+
 
 /*# sourceMappingURL=style.css.map */
